@@ -1,5 +1,5 @@
 html{
-    font-family: 'Arial';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid{
@@ -34,9 +34,6 @@ html{
     position: 5rem;
     grid-column: 1/ 2;
 }
-.button:hover{
-    background: red;
-}
 
 .dog{
     display: block;
@@ -51,10 +48,7 @@ html{
     font-weight: bold;
     position: 5rem;
     grid-column: 1/ 2;
-    margin-top: 2rem;
-}
-.dog:hover{
-    background:red;
+    margin-top: 4rem;
 }
 .cat{
     display: block;
@@ -71,38 +65,15 @@ html{
     grid-column: 1/ 2;
     margin-top: 2rem;
 }
-.cat:hover{
-    background: red;
-}
-.pushme{
-    padding: 2rem;
-}
-.pushme2{
-    padding: 2rem;
-}
-.pushme3{
-    padding: 2rem;
-}
 
 
 .link:hover{
-    color:red;
+    color:rgb(173, 201, 0184);
 }
 
 
 .other{
     font-size: 12px;
-}
-
-
-.scott{
-    color: red;
-    font-family: 'Helvetica';
-    font-style: oblique;
-    font-weight: 400;
-    font-size: 24px;
-    padding-left: 2rem;
-    padding-bottom: 4rem;
 
 }
 .work{
@@ -113,7 +84,7 @@ html{
 
 header{
     display: grid;
-    font-weight: medium;
+    font-weight: bold;
     font-size: 16pt;
 }
 header h1{
@@ -157,8 +128,8 @@ h3{
 
 
 img{ 
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 16rem;
     padding-top: 1rem;
 
 }
@@ -166,25 +137,6 @@ img{
 main p{
     font-size: 16px;
     padding-left: 2rem;
-}
-
-
-
-
-.quote p1{
-    font-size: 16px;
-    padding-left: 2rem;
-}
-
-.quote h2{
-    padding-top: 2rem;
-}
-.quote h3{
-    padding-top: 2rem;
-}
-
-.quote p{
-    padding-top: 2rem;
 }
 
 .ln{
@@ -238,10 +190,10 @@ main p{
 .hfd{
     padding-bottom: 2rem;
 }
-.waggle h2{
+.tasty_simple h2{
     padding-top: 2rem;
 }
-.waggle h3{
+.tasty_simple h3{
     padding-top: 2rem;
 }
 
@@ -282,11 +234,7 @@ footer{
     div{
         display: grid;
     }
-    .scott{
-        display: grid;
-        font-size: 55px;
-        font-weight: lighter;
-    }
+
     .mh{
         display: grid;
         grid-column: 2 / 2;
@@ -299,7 +247,7 @@ footer{
         padding-left: 2rem;
         padding-top: 6rem;
     }
-    .letterNumber{
+    .LetterNumber{
         display: grid;
     }
     .letterNumber h2{
@@ -310,37 +258,6 @@ footer{
     .pink{
         font-size: 32px;
     }
-
-    .green{
-        display: grid;
-        transition: transform .5s;
-    }
-
-    .green:hover{
-        transform: scale(1.2);
-    }
-    .red{
-        display: grid;
-        transition: transform .5s;
-    }
-    .red:hover{
-        transform: scale(1.2); 
-    }
-    .orange{
-        display: grid;
-        transition: transform .5s;
-    }
-    .orange:hover{
-        transform: scale(1.2); 
-    }
-    .blue{
-        display: grid;
-        transition: transform .5s;
-    }
-    .blue:hover{
-        transform: scale(1.2); 
-    }
-
 
     p{
         max-width: 800px;
@@ -355,10 +272,10 @@ footer{
         grid-column: 5 / 5;
         padding-left: 1rem;
     }
-    .HappyFeet{
+    .BrookeStysDesigns{
         display: grid;
     }
-    .HappyFeet h2{
+    .BrookeStysDesigns h2{
         grid-column: 2 / 2;
         grid-row: 2 / 1;
         padding-top: 6rem;
@@ -374,10 +291,10 @@ footer{
         padding-top: 6rem;
         padding-right: 4rem;
     }
-    .Waggle{
+    .Tasty_Simple{
         display: grid;
     }
-    .Waggle h2{
+    .Tasty_Simple h2{
         grid-column: 2 / 2;
         grid-row: 2 / 1;
         padding-top: 6rem;
@@ -385,7 +302,7 @@ footer{
 
     }
     footer{
-        font-size: 16px;
+        font-size: 12px;
         font-weight: lighter;
         padding-top: 4rem;
     }
